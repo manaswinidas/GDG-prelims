@@ -1,16 +1,1 @@
-h1 {
-   display:inline;
-   width:250px;
-   text-align:center;
-}
-div.container {
-    display: flex;
-    margin-top: 6%;
-}
-.sidebar{
-  margin-right: 5%;
-  margin-left: 16%;
-}
-.text{
-  font-size: 10%;
-}
+

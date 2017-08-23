@@ -1,0 +1,40 @@
+<html>
+  <head>
+    <title>SpellBug</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+    .err{
+      color:red;
+    }
+    </style>
+  </head>
+  <body>
+    <h1><center>GDG BBSR</center></h1>
+     <center>Spell Check</center>
+    <p id="paragraph"></p>
+    <div class="container">
+      <div class="row">
+      <div class="sidebar col-md-3">
+          <strong>Add a New Word</strong><br><br>
+          <div class="form-group">
+            <input class="form-control" type="text" id="word" placeholder="New Word" />
+          </div>
+          <div class="form-group text-center">
+            <button class="btn btn-secondary" id="addWord">Add</button>
+          </div>
+      </div>
+      <div class="col-md-9" >
+        <div class="form-group">
+          <textarea class="form-control" rows="10" cols="60" id="myText"></textarea>
+        </div>
+        <div class="form-group text-center">
+          <button class="btn btn-secondary" id="check">Submit</button>
+      </div>
+      </div>
+    </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="do.js"></script>
+   </body>
+</html>
