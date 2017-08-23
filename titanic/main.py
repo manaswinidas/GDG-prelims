@@ -5,14 +5,19 @@ fname = 'xtrain.csv'
 data = pd.read_csv(fname)
 len(data)
 data.head()
+
 data.count()
+
 data['age'].min(),data['age'].max()
 data['survived'].value_counts()
 data['sex'].value_counts()
+
 columns_target= ['survived']
 columns_train = ['age','pclass','sex','fare']
+
 X= data[columns_train]
 Y= data[columns_target]
+
 X['sex'].isnull().sum()
 X['pclass'].isnull().sum()
 X['fare'].isnull().sum()	
