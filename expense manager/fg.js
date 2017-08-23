@@ -1,1 +1,1 @@
-$('#myModal').append('<td>new</td>')
+$('#myModal').append('<td>${FirstName}</td>')
