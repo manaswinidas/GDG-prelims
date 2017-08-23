@@ -14,7 +14,9 @@
 </script>
 </head>
 <body>
-  <header style="margin-bottom: 70px;text-align: center;"><h1><center>Expense Manager</center></h1></header>
+  <header style="text-align: center;"><h1><center>Expense Manager</center></h1></header>
+  <hr style="margin-bottom: 60px">
+
   <div class="container">
     <table id="expense" class="table table-striped" style="font-size: 20px">
       <tr>
@@ -67,15 +69,15 @@
           </div>
           <div class="modal-body">
           <center>
-            <input type="text" style="box-sizing: border-box;border-radius: 4px;width: 70%; height:40px; margin-bottom: 20px" name="name" placeholder="Expense Name"></input>
-            <input type="text" style="box-sizing: border-box;border-radius: 4px;width: 70%; height:40px; margin-bottom: 20px" name="Category" placeholder="Expense Category"></input><br>
-            <input type="text" style="box-sizing: border-box;border-radius: 4px;width: 70%; height:40px; margin-bottom: 20px" name="limit" placeholder="Expence Limit"></input><br>
-            <input type="text" style="box-sizing: border-box;border-radius: 4px;width: 70%; height:40px; margin-bottom: 20px" name="amount" placeholder="Amount"></input><br>
-            <input type="text" style="box-sizing: border-box;border-radius: 4px;width: 70%; height:40px; margin-bottom: 20px" name="method" placeholder="Payment method"></input>
+            <input type="text" style="box-sizing:border-box;border-radius: 4px;width: 70%; height:40px; margin-bottom: 20px" name="name" id="name" placeholder="Expense Name"></input>
+            <input type="text" style="box-sizing: border-box;border-radius: 4px;width: 70%; height:40px; margin-bottom: 20px" name="Category" id="category" placeholder="Expense Category"></input><br>
+            <input type="text" style="box-sizing: border-box;border-radius: 4px;width: 70%; height:40px; margin-bottom: 20px" name="limit" id="limit" placeholder="Expence Limit"></input><br>
+            <input type="text" style="box-sizing: border-box;border-radius: 4px;width: 70%; height:40px; margin-bottom: 20px" name="amount" id="amount" placeholder="Amount"></input><br>
+            <input type="text" style="box-sizing: border-box;border-radius: 4px;width: 70%; height:40px; margin-bottom: 20px" name="method" id="method" placeholder="Payment method"></input>
           </center>
           </div>
           <div class="modal-footer">
-            <button type="submit" class="btn btn-success" id="savebutton" onclick="getid()">Add</button>
+            <button type="submit" class="btn btn-success" id="savebutton">Add</button>
           </div>
         </div>
 
